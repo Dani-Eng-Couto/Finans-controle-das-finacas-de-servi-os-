@@ -15,7 +15,7 @@ https://github.com/Dani-Eng-Couto/Finans-controle-das-finacas-de-servi-os-/blob/
 <br>
 
 ## 📌 Resumo do Projeto
-Este Projeto consiste na criação de um app para agenda de contatos, onde o usuário poderá cadastrar o nome do contato, telefone e adicionar uma url de imagem, para serem exibidos em uma tabela de contatos. O projeto será publiado na Vercel.
+Este projeto visa o desenvolvimento de uma aplicação voltada para o controle de despesas de profissionais autônomas da área da beleza. A ferramenta permitirá que as usuárias registrem seus custos e despesas relacionados ao trabalho, criando uma tabela detalhada para controle de serviços prestados, compras realizadas e outros gastos. O objetivo é proporcionar mais organização, qualidade e confiabilidade nas informações financeiras. A aplicação está publicada na plataforma Vercel.
 
 <br>
 
