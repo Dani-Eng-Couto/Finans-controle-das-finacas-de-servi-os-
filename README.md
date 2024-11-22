@@ -20,13 +20,12 @@ Este projeto visa o desenvolvimento de uma aplicação voltada para o controle d
 <br>
 
 ## ⭐ Features
-- Opção para adicionar URL de foto do contato;
-- Opção para cadastrar nome do contato;
-- Opção para cadastrar telefone do contato;
-- Tabela para informar todos os contatos cadastrados;
-- Layout simples e elegante;
-- Bloqueio para inserção de telefone e nome de contato duplicado;
-- Validação de números de 11 digitos (celular) e 10 digitos (Telefone);
+- Opção para adicionar despesas;
+- Opção para cadastrar gastos diveros;
+- Tabela para informar de todos os gastos;
+- Layout simples e amigavel;
+- Bloqueio para a não inserção dados completos;
+- Validação de do preechimento completo;
 
 <br>
 
