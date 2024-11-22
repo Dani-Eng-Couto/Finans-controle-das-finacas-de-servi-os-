@@ -1,6 +1,6 @@
 # 🏆 Controle de Finanças para serviços de unhas
 
-<img src=" Finans _ controle de gastos de serviços/finans_control.jpg
+<ima src= 
 
 <br>
 
