@@ -1,0 +1,228 @@
+<html>
+	<head>
+    <meta charset="utf-8" />
+
+		<!-- Bootstrap início -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap fim -->
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="app.js"></script>
+
+	</head>
+
+  <body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+          <img src="img/logo.png" width="142">
+
+        </a>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="consulta.html">Consulta</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col mb-5">
+          <h1 class="display-4">Registro de nova despesa</h1>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-2">
+          <select class="form-control" id="ano">
+            <option value="">Ano</option>
+            <option value="2024">2024</option>
+          </select>
+        </div>
+
+        <div class="col-md-2">
+          <select class="form-control" id="mes">
+            <option value="">Mês</option>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+          </select>
+        </div>
+        
+        <div class="col-md-2">
+          <input type="text" class="form-control" placeholder="Dia" id="dia" />
+        </div>
+
+        <div class="col-md-6">
+          <select class="form-control" id="tipo">
+            <option value="">Tipo</option>
+            <option value="1">Alimentação</option>
+            <option value="2">Gel</option>
+            <option value="3">Materiais</option>
+            <option value="4">Retrabalho</option>
+            <option value="5">Transporte</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <input type="text" class="form-control" placeholder="Descrição" id="descricao" />
+        </div>
+
+        <div class="col-md-2">
+          <input type="text" class="form-control" placeholder="Valor" id="valor" />
+        </div>
+
+        <div class="col-md-2 d-flex justify-content-end">
+          <button type="button" class="btn btn-primary" onclick="cadastrarDespesa()">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalRegistraDespesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div id="modal_titulo_div">
+            <h5 class="modal-title" id="modal_titulo"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modal_conteudo"></div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" id="modal_btn">Voltar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <section class="calixa"><!--/Início seção saiba -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Saiba controlar o seus serviços</h2>
+              <p>
+                Com Finans, você consegue controlar suas finanças de forma simples e eficiente enquanto realiza seus serviços de manicure, facilitando o gerenciamento de receitas, despesas e o planejamento financeiro do seu trabalho.
+              </p>
+              <a href="" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/saiba.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section><!--/FIM seção saiba -->
+
+
+     <section class="calixa"><!--/Início seção juros -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/juros.png" class="img-fluid">
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Pare de ter prejuizo e economize</h2>
+              <p>
+               Manter a qualidade do trabalho é fundamental para garantir a fidelidade dos clientes e a excelência dos serviços prestados.
+              </p>
+              <a href="" class="btn btn-primary">Veja mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--/FIM seção juros -->
+
+     <section class="calixa"><!--/Início seção recursos -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/facil.png" class="img-fluid">
+            <h4>Fácil de usar</h4>
+            <p>
+              O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/economize.png" class="img-fluid">
+            <h4>Economize seu tempo</h4>
+            <p>
+              Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/suporte.png" class="img-fluid">
+            <h4>Controle de qualidade</h4>
+            <p>
+              Com o Finans, você aprimora a gestão do seu negócio, ganhando mais controle sobre seus gastos, materiais e evitando retrabalho, o que contribui para uma maior qualidade no seu serviço.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!--/FIM seção recursos -->
+
+
+     <footer class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+            </p>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+            <a href="" class="btn btn-outline-dark">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>	
+
+</html>
