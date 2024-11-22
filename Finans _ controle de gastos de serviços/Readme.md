@@ -1,6 +1,6 @@
 # 🏆 Agenda de Contatos
 
-<img src="./assets/images/screenshot.jpg" alt="imagem do projeto">
+<img src="
 
 <br>
 
@@ -51,10 +51,8 @@ Este Projeto consiste na criação de um app para agenda de contatos, onde o usu
 <br>
 
 ## 💻 Demonstração
-Para visualizar uma prévia do projeto <a href="https://agenda-de-contatos-lime.vercel.app/" target="_blank"><b>clique aqui</b></a>
+Para visualizar uma prévia do projeto 
 
 <br>
 
 ## 🙋🏻‍♂️ Autor
-| [<img src="https://avatars.githubusercontent.com/u/103857382?v=4" width=115><br><sub>Bruno Oliveira</sub>](https://github.com/BrunoOliveira16) |
-| :---: |
