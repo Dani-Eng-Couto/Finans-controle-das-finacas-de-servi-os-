@@ -1,6 +1,6 @@
 # 🏆 Controle de Finanças para serviços de unhas
 
-<ima src= https://github.com/Dani-Eng-Couto/Finans-controle-das-finacas-de-servi-os-/blob/main/Finans%20_%20controle%20de%20gastos%20de%20servi%C3%A7os/finans_control.jpg
+https://github.com/Dani-Eng-Couto/Finans-controle-das-finacas-de-servi-os-/blob/main/Finans%20_%20controle%20de%20gastos%20de%20servi%C3%A7os/finans_control.jpg
 
 <br>
 
