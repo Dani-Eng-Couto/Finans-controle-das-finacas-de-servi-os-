@@ -37,7 +37,7 @@ Este projeto visa o desenvolvimento de uma aplicação voltada para o controle d
 - Utilização de eventos do JavaScript como click e submit;
 - Utilização de funções JS como splice, includes, length e push;
 - Inserir HTML e valores de forma dinâmica no documento com JavaScript;
-- Validação de campos com regex;
+- Utilização de BD localStorage do navegador como banco de dados persistente
 - Utilização de condicionais JavaScript;
 
 <br>
