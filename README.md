@@ -53,5 +53,5 @@ Este projeto visa o desenvolvimento de uma aplicação voltada para o controle d
 Para visualizar uma prévia do projeto 
 
 <br> https://finans-controle-das-finacas-de-servi-os.vercel.app/
-## 🙋🏻‍♂️ Autor
+## 👧Autor
 Danielle Dangelo ♀️
