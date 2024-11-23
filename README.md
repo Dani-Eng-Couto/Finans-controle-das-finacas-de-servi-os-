@@ -54,3 +54,4 @@ Para visualizar uma prévia do projeto
 
 <br> https://finans-controle-das-finacas-de-servi-os.vercel.app/
 ## 🙋🏻‍♂️ Autor
+Danielle Dangelo ♀️
